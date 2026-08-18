@@ -17,6 +17,5 @@ src = [
 
 incdir = include_directories('include')
 
-
 glutess = static_library('glutess', src, include_directories: incdir)
 glutess_dep = declare_dependency(link_with: glutess, include_directories: incdir)
