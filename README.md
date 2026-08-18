@@ -15,7 +15,7 @@ The features of the tesselator are covered elsewhere. This documentation simply 
 ## Compilation
 
 ```bash
-     meson setup build --buildtype=release
+     meson setup build --buildtype=[debug, release]
      cd build
      meson compile
 ```
